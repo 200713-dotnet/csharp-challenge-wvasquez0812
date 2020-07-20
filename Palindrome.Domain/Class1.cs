@@ -4,15 +4,7 @@ namespace Palindrome.Domain
 {
     public class Class1
     {
-        public static void  Main()
-        {
-            
-            
-            int leftIndex = 0;
-            int rightIndex = word.Length - 1;
-            
-        
-        }
+     
 
         public string getWord()
         {
