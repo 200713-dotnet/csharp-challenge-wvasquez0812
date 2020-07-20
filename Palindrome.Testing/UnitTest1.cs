@@ -12,8 +12,9 @@ namespace Palindrome.Testing
             var word = "radar";
             var word2 = "hello";
             
-            Class1 testPalindrome = new Class1();
+            Palindrome.Domain.Class1 testPalindrome = new Class1();
 
+            
             
             Assert.True(testPalindrome.isPalindrome(word));
 
