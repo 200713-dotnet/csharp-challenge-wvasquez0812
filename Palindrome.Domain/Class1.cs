@@ -20,7 +20,7 @@ namespace Palindrome.Domain
             int leftIndex = 0;
             int rightIndex = word.Length - 1;
 
-            bool isPalindrome = false;
+            bool isPalindrome = true;
             bool stay = true;
 
             while(stay)

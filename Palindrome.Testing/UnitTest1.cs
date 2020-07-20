@@ -15,9 +15,9 @@ namespace Palindrome.Testing
             Class1 testPalindrome = new Class1();
 
             
-            Assert.IsTrue(testPalindrome.isPalindrome(word));
+            Assert.True(testPalindrome.isPalindrome(word));
 
-            Assert.IsFalse(testPalindrome.isPalindrome(word2));
+            Assert.False(testPalindrome.isPalindrome(word2));
         }
     }
 }
