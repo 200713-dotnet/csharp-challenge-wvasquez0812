@@ -16,7 +16,7 @@ namespace Palindrome.Testing
             
             Assert.IsTrue(testPalindrome.isPalindrome(word));
 
-            Assert.IsFalse(testPalindrome.isPalindrome(word2))
+            Assert.IsFalse(testPalindrome.isPalindrome(word2));
         }
     }
 }
