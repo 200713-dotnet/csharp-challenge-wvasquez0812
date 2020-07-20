@@ -1,0 +1,4 @@
+/Users/winstonvasquez/revature-github/csharp-challenge-wvasquez0812/Palindrome.Testing/obj/Debug/netcoreapp3.1/Palindrome.Testing.csprojAssemblyReference.cache
+/Users/winstonvasquez/revature-github/csharp-challenge-wvasquez0812/Palindrome.Testing/obj/Debug/netcoreapp3.1/Palindrome.Testing.AssemblyInfoInputs.cache
+/Users/winstonvasquez/revature-github/csharp-challenge-wvasquez0812/Palindrome.Testing/obj/Debug/netcoreapp3.1/Palindrome.Testing.AssemblyInfo.cs
+/Users/winstonvasquez/revature-github/csharp-challenge-wvasquez0812/Palindrome.Testing/obj/Debug/netcoreapp3.1/Palindrome.Testing.csproj.CoreCompileInputs.cache

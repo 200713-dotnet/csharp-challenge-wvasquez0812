@@ -1,0 +1,9 @@
+/Users/winstonvasquez/revature-github/csharp-challenge-wvasquez0812/Palindrome.Domain/bin/Debug/netstandard2.0/Palindrome.Domain.deps.json
+/Users/winstonvasquez/revature-github/csharp-challenge-wvasquez0812/Palindrome.Domain/bin/Debug/netstandard2.0/Palindrome.Domain.dll
+/Users/winstonvasquez/revature-github/csharp-challenge-wvasquez0812/Palindrome.Domain/bin/Debug/netstandard2.0/Palindrome.Domain.pdb
+/Users/winstonvasquez/revature-github/csharp-challenge-wvasquez0812/Palindrome.Domain/obj/Debug/netstandard2.0/Palindrome.Domain.csprojAssemblyReference.cache
+/Users/winstonvasquez/revature-github/csharp-challenge-wvasquez0812/Palindrome.Domain/obj/Debug/netstandard2.0/Palindrome.Domain.AssemblyInfoInputs.cache
+/Users/winstonvasquez/revature-github/csharp-challenge-wvasquez0812/Palindrome.Domain/obj/Debug/netstandard2.0/Palindrome.Domain.AssemblyInfo.cs
+/Users/winstonvasquez/revature-github/csharp-challenge-wvasquez0812/Palindrome.Domain/obj/Debug/netstandard2.0/Palindrome.Domain.csproj.CoreCompileInputs.cache
+/Users/winstonvasquez/revature-github/csharp-challenge-wvasquez0812/Palindrome.Domain/obj/Debug/netstandard2.0/Palindrome.Domain.dll
+/Users/winstonvasquez/revature-github/csharp-challenge-wvasquez0812/Palindrome.Domain/obj/Debug/netstandard2.0/Palindrome.Domain.pdb

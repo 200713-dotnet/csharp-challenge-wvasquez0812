@@ -17,8 +17,6 @@ namespace Palindrome.Domain
 
         public bool isPalindrome(string word)
         {
-
-             
             int leftIndex = 0;
             int rightIndex = word.Length - 1;
 
