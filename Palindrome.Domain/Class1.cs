@@ -22,7 +22,7 @@ namespace Palindrome.Domain
             int leftIndex = 0;
             int rightIndex = word.Length - 1;
 
-            bool isPalindrome;
+            bool isPalindrome = false;
             bool stay = true;
 
             while(stay)
@@ -41,7 +41,10 @@ namespace Palindrome.Domain
                 {
                     stay = false;
                 }
+
             }
+
+            return isPalindrome;
         }
     }
 }
