@@ -6,8 +6,7 @@ namespace Palindrome.Domain
     {
         public static void  Main()
         {
-            System.Console.WriteLine("Welcome to Palindrome Checker. Enter word to be checked: ");
-            var word = System.Console.ReadLine().ToLower();
+            
             
             int leftIndex = 0;
             int rightIndex = word.Length - 1;
@@ -15,8 +14,22 @@ namespace Palindrome.Domain
         
         }
 
-        public bool isPalindrome(string word, int leftIndex, int rightIndex)
+        public string getWord()
         {
+            System.Console.WriteLine("Welcome to Palindrome Checker. Enter word to be checked: ");
+            var word = System.Console.ReadLine().ToLower();
+
+            return word;
+
+        }
+
+        public bool isPalindrome(string word)
+        {
+
+             
+            int leftIndex = 0;
+            int rightIndex = word.Length - 1;
+
             bool isPalindrome;
             bool stay = true;
 
@@ -29,6 +42,8 @@ namespace Palindrome.Domain
                         stay = false;
                         isPalindrome =false;   
                     }
+                    leftIndex++;
+                    rightIndex--;
                 }
                 else
                 {
