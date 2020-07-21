@@ -6,19 +6,32 @@ namespace Palindrome.Testing
 {
     public class UnitTest1
     {
-        [Fact]
-        public void Test1()
+        [Theory]
+        [InlineData("Radar")]
+        public void GetWord_TrueTest(string word)
         {
-            var word = "radar";
-            var word2 = "hello";
-            
-            Palindrome.Domain.Class1 testPalindrome = new Class1();
+            Class1 palindrome = new Class1();
 
-            
-            
-            Assert.True(testPalindrome.isPalindrome(word));
-
-            Assert.False(testPalindrome.isPalindrome(word2));
+            Assert.True(palindrome.VerifyWord(word));
         }
+        [Theory]
+        [InlineData("")]
+        public void GetWord_FalseTest(string word)
+        {
+
+            Class1 palindrome = new Class1();
+
+            Assert.False(palindrome.VerifyWord(word));
+        }
+
+        [Theory]
+        [InlineData("Radar")]
+        public void IsPalindrome_TrueTest(string word)
+        {
+            Class1 palindrome = new Class1();
+
+            Assert.True(palindrome.isPalindrome(word));
+        }
+       
     }
 }
